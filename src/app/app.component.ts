@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'shibangi-chutiya';
+  isDisabled = false;
+  num = 0
+
+  text = 'Ayush'
+
+  clicked(){
+    this.isDisabled = true;
+    console.log("clicked")
+  }
+
+  increment(){
+    this.num++
+  }
 }
